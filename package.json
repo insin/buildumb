@@ -1,7 +1,7 @@
 {
   "name": "buildumb",
   "description": "Ultra-dumb exporter of Node.js modules for use in the browser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Jonathan Buchanan <jonathan.buchanan@gmail.com> (https://github.com/insin)",
   "tags": ["build", "export", "browser", "modules"],
   "main": "./lib/buildumb",

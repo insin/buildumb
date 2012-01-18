@@ -29,7 +29,9 @@ Expected ``config`` properties are:
 
    All other paths in the ``config`` object are relative to ``config.root``.
 ``modules``
-   An object mapping ``require()`` strings used in your code to source files.
+   An object mapping source file paths to``require()`` strings used to require
+   them in your code. If the same file is required multiple ways, the right hand
+   side should be an Array.
 
    Did I mention it was dumb?
 ``exports``
