@@ -42,7 +42,9 @@ Expected ``config`` properties are:
 ``compress`` *(Optional)*
    Path to a compressed output file, which will be created if given.
 
-   The Google Closure Compiler API is used to compress code - errors, warnings
+   The `Closure Compiler Service API`_ is used to compress code - errors, warnings
    and statistics it returns will be displayed.
 
    A compressed version will not be written if there are errors present.
+
+.. _`Closure Compiler Service API`: http://code.google.com/closure/compiler/docs/api-ref.html
