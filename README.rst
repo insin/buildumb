@@ -43,6 +43,8 @@ Expected ``config`` properties are:
    A comment header for inclusion at the top of output files.
 ``compress`` *(Optional)*
    Path to a compressed output file, which will be created if given.
+``exposeRequire`` *(Optional)*
+   If ``true``, ``require()`` will be exported to the global scope.
 
    The `Closure Compiler Service API`_ is used to compress code - errors, warnings
    and statistics it returns will be displayed.
