@@ -6,6 +6,15 @@ Ultra-dumb build tool for exporting `Node.js`_ modules for use in browsers.
 
 .. _`Node.js`: http://nodejs.org/
 
+Examples
+========
+
+Examples of build files written with buildumb:
+
+* `No dependencies <https://github.com/insin/isomorph/blob/master/support/build.js>`__
+* `Bundling individual files from a dependency <https://github.com/insin/concur/blob/master/support/build.js>`__
+* `Lots of dependencies, some of which require eachother using different require() strings <https://github.com/insin/newforms/blob/master/support/build.js>`__
+
 API
 ===
 
@@ -43,12 +52,13 @@ Expected ``config`` properties are:
    A comment header for inclusion at the top of output files.
 ``compress`` *(Optional)*
    Path to a compressed output file, which will be created if given.
-``exposeRequire`` *(Optional)*
-   If ``true``, ``require()`` will be exported to the global scope.
 
-   The `Closure Compiler Service API`_ is used to compress code - errors, warnings
-   and statistics it returns will be displayed.
+   The `Closure Compiler Service API`_ is used to compress code - errors,
+   warnings and statistics it returns will be displayed.
 
    A compressed version will not be written if there are errors present.
 
-.. _`Closure Compiler Service API`: http://code.google.com/closure/compiler/docs/api-ref.html
+   .. _`Closure Compiler Service API`: http://code.google.com/closure/compiler/docs/api-ref.html
+
+``exposeRequire`` *(Optional)*
+   If ``true``, ``require()`` will be exported to the global scope.
