@@ -1,3 +1,8 @@
+0.1.2 / 2012-02--04
+==================
+
+* File sizes from the Closure Compiler API are now reported in KB
+
 0.1.1 / 2012-01-30
 ==================
 
