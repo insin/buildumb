@@ -1,7 +1,7 @@
 {
   "name": "buildumb"
 , "description": "Ultra-dumb exporter of Node.js modules for use in the browser"
-, "version": "0.1.2"
+, "version": "0.1.3"
 , "author": "Jonathan Buchanan <jonathan.buchanan@gmail.com> (https://github.com/insin)"
 , "tags": ["build", "export", "browser", "modules"]
 , "main": "./lib/buildumb"
@@ -10,7 +10,7 @@
   , "url": "http://github.com/insin/buildumb.git"
   }
 , "dependencies": {
-    "isomorph": "0.1.x"
+    "isomorph": "0.2.x"
   , "request": "2.9.x"
   }
 }

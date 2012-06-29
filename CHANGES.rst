@@ -1,4 +1,9 @@
-0.1.2 / 2012-02--04
+0.1.3 / 2012-06-29
+==================
+
+* Updated to isomorph 0.2
+
+0.1.2 / 2012-02-04
 ==================
 
 * File sizes from the Closure Compiler API are now reported in KB
