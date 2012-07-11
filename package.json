@@ -13,4 +13,5 @@
     "isomorph": "0.2.x"
   , "request": "2.9.x"
   }
+, "license": "MIT"
 }
