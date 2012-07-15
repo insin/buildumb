@@ -1,3 +1,8 @@
+0.1.4 / 2012-07-15
+==================
+
+* Added a ``require.noConflict()`` function when using ``config.exposeRequire``
+
 0.1.3 / 2012-06-29
 ==================
 
