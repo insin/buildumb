@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/insin/buildumb.png)](http://travis-ci.org/insin/buildumb)
 ========
 buildumb
 ========
